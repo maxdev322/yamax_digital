@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(./../fonts/BebasNeue-Bold.ttf);
+}
+
+/* * {
+    outline: red 1px solid;
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #191D2F;
+    overflow: hidden;
+}
+
+body>img {
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    opacity: .1;
+}
+
+.body__message>p {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
